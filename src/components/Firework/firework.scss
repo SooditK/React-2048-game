@@ -1,0 +1,85 @@
+@import '../../assets/styles/vars';
+
+:global {
+
+  $particles: 100;
+  $width: 500;
+  $height: 500;
+
+  @media #{$mobile} {
+    $particles: 30;
+  }
+
+  // Create the explosion...
+  $box-shadow: ();
+  $box-shadow2: ();
+  @for $i from 0 through $particles {
+    $box-shadow: $box-shadow,
+      random($width) - $width / 2 + px
+      random($height) - $height / 1.2 + px
+      hsl(random(360), 100, 50);
+    $box-shadow2: $box-shadow2, 0 0 #fff;
+  }
+
+  .firework > .before,
+  .firework > .after {
+    animation: 1s bang ease-out infinite backwards,
+      1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+    border-radius: 50%;
+    box-shadow: $box-shadow2;
+    height: 5px;
+    position: absolute;
+    width: 5px;
+  }
+
+  .firework > .after {
+    // animation-delay: 10s, 10s, 10s;
+    animation-duration: 1.25s, 1.25s, 6.25s;
+  }
+
+  /* stylelint-disable max-nesting-depth */
+  @keyframes :global(bang) {
+    to {
+      box-shadow: $box-shadow;
+    }
+  }
+
+  @keyframes :global(gravity) {
+    to {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+  }
+
+  @keyframes :global(position) {
+    0%,
+    19.9% {
+      margin-left: 40%;
+      margin-top: 10%;
+    }
+
+    20%,
+    39.9% {
+      margin-left: 30%;
+      margin-top: 40%;
+    }
+
+    40%,
+    59.9% {
+      margin-left: 70%;
+      margin-top: 20%;
+    }
+
+    60%,
+    79.9% {
+      margin-left: 20%;
+      margin-top: 30%;
+    }
+
+    80%,
+    99.9% {
+      margin-left: 80%;
+      margin-top: 30%;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> component render 1`] = `
+<button
+  className="btn-flat btn-md btn-default"
+  onClick={[Function]}
+>
+  
+</button>
+`;
+
+exports[`<Board /> component render 2`] = `
+<button
+  className="btn-flat btn-md btn-default"
+  onClick={[Function]}
+>
+  
+</button>
+`;
+
+exports[`<Board /> component render 3`] = `
+<button
+  className="btn-flat btn-md btn-default"
+  onClick={[Function]}
+>
+  <span>
+    test
+  </span>
+</button>
+`;

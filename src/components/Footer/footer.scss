@@ -1,0 +1,50 @@
+@import '../../assets/styles/vars';
+
+.footer {
+  border-top: 1px $border-color solid !important;
+  color: $black;
+  font-size: 1.25rem;
+  margin-top: 3.08vw;
+  width: 100%;
+
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 3.08vw 0 2vw;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+
+  .github {
+    width: 32px;
+  }
+
+  .heart {
+    color: $peach;
+    font-size: 1rem;
+    margin: 0 10px;
+    transform: scale(0.9);
+  }
+
+  .link {
+    margin-left: 10px;
+    outline: none !important;
+    text-decoration: none !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      outline: none !important;
+    }
+  }
+}
+
+@media all and (max-width: $break-point) {
+  .footer {
+    margin-top: 8vw;
+    width: 85vw;
+  }
+}

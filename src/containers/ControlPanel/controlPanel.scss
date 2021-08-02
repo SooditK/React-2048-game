@@ -1,0 +1,41 @@
+@import '../../assets/styles/vars';
+
+.panel {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  .row-btn {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .btn {
+    margin-right: 0.77vw;
+    margin-top: 0.77vw;
+  }
+
+  img {
+    margin-bottom: -0.35vw;
+    width: 2.1vw;
+  }
+
+  .arrows {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left {
+    transform: rotate(270deg);
+  }
+
+  .right {
+    transform: rotate(90deg);
+  }
+
+  .down {
+    transform: rotate(180deg);
+  }
+}

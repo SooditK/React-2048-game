@@ -1,0 +1,79 @@
+@import '../../assets/styles/vars';
+
+$web-len: 6vw;
+$mobile-len: 20vw;
+
+.cell {
+  align-items: center;
+  background-color: $black;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.18), 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  height: $web-len;
+  justify-content: center;
+  width: $web-len;
+}
+
+@media all and (max-width: $break-point) {
+  .cell {
+    height: $mobile-len;
+    width: $mobile-len;
+  }
+}
+
+.number {
+  color: $white;
+  font-size: 2rem;
+}
+
+.color-2 {
+  background-color: $blue;
+}
+
+.color-4 {
+  background-color: $green;
+}
+
+.color-8 {
+  background-color: $purple;
+}
+
+.color-16 {
+  background-color: $red;
+}
+
+.color-32 {
+  background-color: $pink;
+}
+
+.color-64 {
+  background-color: $lime;
+}
+
+.color-128 {
+  background-color: $indigo;
+}
+
+.color-256 {
+  background-color: $orange;
+}
+
+.color-512 {
+  background-color: $deep-purple;
+}
+
+.color-1024 {
+  background-color: $teal;
+}
+
+.color-2048 {
+  background-color: $light-blue;
+}
+
+.color-4096 {
+  background-color: $yellow;
+}
+
+.color-8192 {
+  background-color: $cyan;
+}

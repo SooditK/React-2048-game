@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <% if (process.env.NODE_ENV === 'production') { %>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108341680-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-108341680-1');
+      </script>
+      <meta name="google-site-verification" content="3ZsxHNev23BWXL1r7IgEwkr-X12nhWTqutOjjs41ZZ8" />
+    <% } %>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fancy 2048 game build with react and redux">
+    <meta name="theme-color" content="#2196F3">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.png" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React 2048 game</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <% if (process.env.NODE_ENV === 'production') { %>
+      <script src="https://unpkg.com/babel-polyfill@6.26.0/dist/polyfill.min.js"></script>
+      <script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+      <script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+      <script src="https://unpkg.com/gitalk@1.1.4/dist/gitalk.min.js"></script>
+      <script src="https://unpkg.com/react-router@4.2.0/umd/react-router.min.js"></script>
+      <script src="https://unpkg.com/react-router-dom@4.2.2/umd/react-router-dom.min.js"></script>
+      <script src="https://unpkg.com/echarts@3.7.2/dist/echarts.min.js"></script>
+    <% } %>
+  </body>
+</html>

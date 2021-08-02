@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Firework /> component render 1`] = `
+<div
+  className="firework"
+>
+  <div
+    className="before"
+  />
+  <div
+    className="after"
+  />
+</div>
+`;

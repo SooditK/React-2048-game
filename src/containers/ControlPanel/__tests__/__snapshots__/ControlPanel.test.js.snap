@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ControlPanel /> component render 1`] = `
+<div
+  className="panel"
+>
+  <div
+    className="rowBtn"
+  >
+    <div
+      className="btn"
+    >
+      <button
+        className="btn-flat btn-md btn-default"
+        onClick={[Function]}
+      >
+        <img
+          alt="speaker"
+          src="speaker-on.svg"
+        />
+      </button>
+    </div>
+    <div
+      className="btn "
+    >
+      <button
+        className="btn-flat btn-md btn-default"
+        onClick={[Function]}
+      >
+        <img
+          alt="undo"
+          src="undo.svg"
+        />
+      </button>
+    </div>
+    <div
+      className="btn "
+    >
+      <button
+        className="btn-flat btn-md btn-default"
+        onClick={[Function]}
+      >
+        <img
+          alt="reset"
+          src="reset.svg"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="btn "
+  >
+    <button
+      className="btn-flat btn-md btn-primary"
+      onClick={[Function]}
+    >
+      <img
+        alt="arrow up"
+        className="up"
+        src="arrow.svg"
+      />
+    </button>
+  </div>
+  <div
+    className="arrows"
+  >
+    <div
+      className="btn "
+    >
+      <button
+        className="btn-flat btn-md btn-primary"
+        onClick={[Function]}
+      >
+        <img
+          alt="arrow left"
+          className="left"
+          src="arrow.svg"
+        />
+      </button>
+    </div>
+    <div
+      className="btn "
+    >
+      <button
+        className="btn-flat btn-md btn-primary"
+        onClick={[Function]}
+      >
+        <img
+          alt="arrow down"
+          className="down"
+          src="arrow.svg"
+        />
+      </button>
+    </div>
+    <div
+      className="btn "
+    >
+      <button
+        className="btn-flat btn-md btn-primary"
+        onClick={[Function]}
+      >
+        <img
+          alt="arrow right"
+          className="right"
+          src="arrow.svg"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

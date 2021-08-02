@@ -1,0 +1,31 @@
+@import '../../assets/styles/vars';
+
+.app {
+  margin: 2vw auto;
+  text-align: center;
+  width: 80vw;
+}
+
+.title {
+  color: $black;
+  font-size: 3rem;
+  margin: 0.67em 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  // flex: $flex;
+}
+
+.panel {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+  margin-left: 3vw;
+}

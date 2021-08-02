@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Scores /> component render 1`] = `
+<div
+  className="index"
+>
+  <p
+    className="score"
+  >
+    SCORE
+    <em
+      className="text"
+    >
+      123
+    </em>
+  </p>
+  <p
+    className="score best"
+  >
+    BEST
+    <em
+      className="text"
+    >
+      456
+    </em>
+  </p>
+</div>
+`;

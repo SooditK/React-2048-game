@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> component render 1`] = `
+<header
+  className="header"
+>
+  <nav>
+    <ul
+      className="row"
+    >
+      <li
+        className="title"
+      >
+        <a
+          aria-current="true"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="link"
+      >
+        <a
+          aria-current={false}
+          className={undefined}
+          href="/ranking"
+          onClick={[Function]}
+          style={undefined}
+        >
+          Ranking
+        </a>
+      </li>
+      <li
+        className="link"
+      >
+        <a
+          aria-current={false}
+          className={undefined}
+          href="/comments"
+          onClick={[Function]}
+          style={undefined}
+        >
+          Comments
+        </a>
+      </li>
+      <li
+        className="spacer"
+      />
+      <li>
+        <a
+          href="https://github.com/devrsi0n/React-2048-game"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="github repo"
+            className="icon"
+            src="github-white.png"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

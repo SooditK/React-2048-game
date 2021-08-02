@@ -46,7 +46,7 @@ export default class Header extends React.Component {
             <li className={styles.spacer} />
             <li>
               <a
-                href="https://github.com/devrsi0n/React-2048-game"
+                href="https://github.com/SooditK"
                 target="_blank"
                 rel="noopener noreferrer"
               >
